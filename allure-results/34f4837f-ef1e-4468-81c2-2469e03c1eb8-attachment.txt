@@ -1,0 +1,4 @@
+Exception occured while clicking 'My Account': Error: locator.click: Test ended.
+Call log:
+  - waiting for locator('span').filter({ hasText: 'My Account' })
+

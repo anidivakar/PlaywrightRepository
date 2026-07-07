@@ -1,0 +1,13 @@
+Exception occured while clicking 'My Account': Error: locator.click: Test timeout of 30000ms exceeded.
+Call log:
+  - waiting for locator('span').filter({ hasText: 'My Account' })
+    - waiting for" https://localhost/opencart/upload/" navigation to finish...
+    - navigated to "https://localhost/opencart/upload/"
+    - locator resolved to <span class="hidden-xs hidden-sm hidden-md">My Account</span>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+
